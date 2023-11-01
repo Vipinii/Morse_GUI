@@ -13,7 +13,7 @@ morse_code = {
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
-led_pin = 16  # Change this to the GPIO pin connected to your LED
+led_pin = 16 
 GPIO.setup(led_pin, GPIO.OUT)
 
 
